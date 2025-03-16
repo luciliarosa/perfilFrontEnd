@@ -6,14 +6,13 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 8% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,10 +64,27 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.apresentacaoBotao1:hover {
+    background-color: #272727;
 }
 
 .icone {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.rodape {
+    color:black;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400px;
 }
 
