@@ -32,7 +32,7 @@ body {
 
 .cabecalhoMenuLink {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400px;
     color: var(--cor-tercearia);
     text-decoration: none;
@@ -50,19 +50,19 @@ body {
 }
 
 .apresentacaoConteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacaoConteudoTitulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
 .apresentacaoConteudoTexto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -77,14 +77,14 @@ body {
 .apresentacaoLinksSuptitulo{
     font-family: var(--fonte-primaria);
     font-weight: 400px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacaoBotao1 {
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -108,10 +108,13 @@ body {
 .rodape {
     color: var(--cor-primaria);
     background-color: var(--cor-tercearia);
-    padding: 24px;
+    padding: 1.5rem;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400px;
 }
 
+.apresentacaoImagem {
+    width: 50%;
+}
